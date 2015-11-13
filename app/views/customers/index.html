@@ -1,0 +1,23 @@
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<!-- BEGIN CONTENT -->
+			<div class="col-md-12 col-sm-12">
+				<table id="customerTable" class="table table-striped table-bordered table-advance"  role="grid">
+				<thead>
+					<tr>
+						<th style="width: 120px">Id</th>
+						<th style="width: 250px">Name</th>						
+					</tr>
+				</thead>
+				<tbody>
+					<tr role="row" ng-repeat="customer in customers" ng-class-odd="'odd'" ng-class-even="'even'">
+						<td>{{customer.id}}</td>
+						<td>{{customer.name}}</td>
+					</tr>
+				</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

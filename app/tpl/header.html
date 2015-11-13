@@ -1,0 +1,24 @@
+
+<!-- BEGIN HEADER -->
+<div class="header">
+	<div class="container" ng-controller="headerController">
+		<div class="row">
+			<!-- BEGIN CONTENT -->
+			<div class="col-md-10 col-sm-10">
+				<ul class="breadcrumb">
+					<li class="active">Customers</li>
+				</ul>
+			</div>			
+			<div class="col-md-2 col-sm-2">
+				<div class="btn-group">
+			        <label class="btn btn-info" ng-model="strategy" uib-btn-radio="'online'" ng-click="toggleStrategy()">Online</label>
+			        <label class="btn btn-warning" ng-model="strategy" uib-btn-radio="'offline'" ng-click="toggleStrategy()">Offline</label>
+		    	</div>
+			</div>		
+		</div>
+		<!-- BEGIN NAVIGATION -->
+		
+		<!-- END NAVIGATION -->
+	</div>
+</div>
+<!-- Header END -->

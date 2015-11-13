@@ -1,0 +1,16 @@
+{
+  "name": "Chrome Angular Customers",
+  "description": "Application to showcase how to build a chrome application that works online and offline",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "assets/packaged/customer-16.png", "128": "assets/packaged/customer-128.png" },
+  "permissions": [
+      "http://*.dynamicflow.com.br/",
+      "http://fonts.googleapis.com/"
+  ]
+}
